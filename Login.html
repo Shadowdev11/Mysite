@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log-in Form</title>
+    <style>
+        body { background: black;
+        color: lightgreen;
+               
+        }
+        
+        form{ background: white;
+        color: black;
+        padding: 30px;
+            
+        }
+        input{align: centre;
+            padding: 10px;
+            margin: 10px;
+            width: 80%;
+        }
+        select {width: 50%;
+        height: 30px;
+            margin: 10px;
+        }
+        
+        button {background: green;
+        width: 30%;
+        border-style: solid;
+        border-radius: 5px;
+        padding: 10px;
+        
+            
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Log-in Form</h1></center>
+    <form id="form">
+        <div class="form-control">
+         <label> Name:</br>
+             <input type="text" id="name"
+             placeholder="First Name" align="right">
+            <input type="text" id="name" placeholder="Last Name">
+         </label></br>
+         <label>Email:</br>
+             <input type="text" id="email" placeholder="Enter Email"></br>
+         </label>
+         <label>Contact no:</br>
+            <input type="number" id="contact"
+            placeholder=""></br>
+         </label>
+         <label>Address:</br>
+         <input type="text" id="address" placeholder="address line 1"></br>
+         <input type="text" id="address" placeholder="address line 2"></label></br>
+         <label>Zip code:</br>
+             <input type="number" id="zipcode"
+placeholder="Zip/Postal Code">
+         </label>
+        </div>
+        <div class="form-control">
+            <label id="country">Country:</br>
+                <select name="country" id="country">
+                    <option value="india">India</option>
+                    <option value="japan">
+                        Japan
+                    </option>
+                    <option value="amarica">
+                        Amarica
+                    </option>
+                </select>
+            </label></br>
+            <label>
+                Password:</br>
+            </label>
+            <input type="password" id="password" placeholder="Set A Password"></br>
+        </div>
+        <div>
+            <center><button>
+                Log In
+            </button></center>
+        </div>
+    </form>
+    
+</body>
+</html>
